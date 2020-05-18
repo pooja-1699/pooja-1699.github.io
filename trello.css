@@ -1,0 +1,204 @@
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-image:url(wd.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  padding: 8px 20px;
+  color:white;
+  background-color: rgba( 64, 144, 172, 1 );
+}
+
+.nav .pointer:hover {
+  opacity: 0.75;
+}
+
+.nav > * {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav .menu > *, .nav .actions > * {
+  display: inline-block;
+  padding: 8px;
+  border-radius: 2px;
+  margin: 0px 4px;
+  background-color: rgba( 64, 144, 172, 1 );
+}
+
+.nav .menu {
+  justify-content: flex-start;
+}
+
+.nav .menu-input {
+  background-color: transparent;
+  padding: 0;
+}
+
+.nav .menu-input input {
+  width: 120px;
+  padding: 4px 0.5em;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  background-color:white;
+  color:black;
+  font-size: 1.15em;
+  line-height: 1.4;
+  color: black;
+}
+
+.nav .menu-input input:focus {
+  background-color: white;
+}
+
+.nav .nav-title {
+  justify-content: space-around;
+  font-family: "Comic Sans", "Comic Sans MS", cursive;
+  font-size: 1.3em;
+}
+
+.nav .actions {
+  justify-content: flex-end;
+}
+
+.dashboard {
+  display: flex;
+  overflow-y: hidden;
+  font-size:22px;
+  height: 35px;
+  padding: 8px 20px;
+  background-color: rgba( 128, 128, 128, 0.3 );
+  color:white;
+}
+
+.board-container{
+  float: left;
+  width:50%;
+}
+
+.board{
+  width:50%;
+  float:right;
+  text-align: right;
+}
+
+.board:hover {
+  opacity: 0.75;
+}
+
+.clear {
+  clear:both;
+}
+
+.flex-container {
+    display: flex;
+    overflow: auto;
+    text-align: center;
+  }
+  
+.flex-container div {
+    width:40%;
+    font-size: 20px;
+    height:7%;
+    margin: 0.2em;
+    background-color:lightgray;
+    border:1px solid lightgray;
+  }
+.flex-container div h3{
+    font-size: 22px;
+    display: inline;
+}
+
+.flex-container div i:hover{
+  opacity: 0.50;
+}
+
+button {
+    cursor: pointer;
+    width: 75%;
+    height: 40px;
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color:#18683d;
+    box-sizing: border-box;
+    color: white;
+}
+
+input[type=submit]{
+    cursor: pointer;
+    width: 75%;
+    height: 40px;
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+  }
+
+input[type=submit]:hover{
+    display: inline-block;
+    color: indigo;
+}
+
+input[type=reset]{
+  font-size: 20px;
+  cursor: pointer;
+  background-color:lightgray;
+}
+
+textarea{
+  width:75%;
+  height:100px;
+  font-size:20px;
+}
+
+
